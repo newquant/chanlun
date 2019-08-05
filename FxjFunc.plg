@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FxjFunc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\pippo\LOCALS~1\Temp\RSP257.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FXJFUNC_EXPORTS" /FR"Release/" /Fp"Release/FxjFunc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\Projects\vc6\stock\chanlunv2.1\ChanlunCore.cpp"
+"G:\Projects\vc6\stock\chanlunv2.1\ChanlunTools.cpp"
+"G:\Projects\vc6\stock\chanlunv2.1\ChanlunVersion.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\pippo\LOCALS~1\Temp\RSP257.tmp" 
+Creating temporary file "C:\DOCUME~1\pippo\LOCALS~1\Temp\RSP258.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/chanlun.pdb" /machine:I386 /out:"./dll/chanlun.dll" /implib:"Release/chanlun.lib" 
+.\Release\ChanlunCore.obj
+.\Release\ChanlunTools.obj
+.\Release\ChanlunVersion.obj
+.\Release\FxjFunc.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\pippo\LOCALS~1\Temp\RSP258.tmp"
+<h3>Output Window</h3>
+Compiling...
+ChanlunCore.cpp
+ChanlunTools.cpp
+ChanlunVersion.cpp
+Generating Code...
+Linking...
+   Creating library Release/chanlun.lib and object Release/chanlun.exp
+Creating command line "bscmake.exe /nologo /o"Release/FxjFunc.bsc"  .\Release\StdAfx.sbr .\Release\ChanlunCore.sbr .\Release\ChanlunTools.sbr .\Release\ChanlunVersion.sbr .\Release\FxjFunc.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+chanlun.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
